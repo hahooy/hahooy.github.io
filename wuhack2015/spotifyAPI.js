@@ -3,7 +3,7 @@ var clientSecret = "d19a4e03cd31497981aa0ee5aa891eeb";
 var spotifyBase = "https://api.spotify.com/";
 
 
-var bearer = "BQAVGZZcQZMloGUDw68r5pVn-NH9CsDEz58pn5Q4yI-ZNVYVhKu2RcUfSGQczWdEDeVNDstZBtGFlphEwGSiyuPI5sSLHBFVlz0LIyPniKLLn4--1DM9L_Orc8NggbiIISy1j__mbF0Ghoswly0iFmr0NHTLZVQJd9NwKUo1_e7bs8uS4DO02rxRY4I8azf0zdKGigD_tBdop79VWp_US3dMv_RqXD544YwCRhxp7TJkxZPpnqWWAd1e4EPtS4S_sO1NaZeCZnsjDXbcNS9_4-ibpmU2BZPhZyo7NQ";
+var bearer = "BQAlOnZ_IzcLnnYs9TP84CENh3lh1CRs8G9xCi379iDMLiOMrlT4Qrn3UZvdS7qfVWU5hkuYXC8jzHPh9oQMk5dv1_uSPX7335nCako9iQLod8g4dr7xNkOo26nKU0G2V_iF2UkSRqM_8pC5zLG4iu4Y8rn7FoVnQ5fVXMxsPyt3I6Vys0GrKpA7icDl9gvPcPvqpn5k5AcEF_fZTTMkO7scMYiKsTtvemrA3F0cLWx2nuF2y-x90odmR7KMlUh1I-Eue3E3tzWN8UFk-UC3FArl7JOUopJfi2qdAg";
 
 /*
 * Temporary backdoor method of updating OAuth key
