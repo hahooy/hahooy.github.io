@@ -3,7 +3,7 @@ var clientSecret = "d19a4e03cd31497981aa0ee5aa891eeb";
 var spotifyBase = "https://api.spotify.com/";
 
 
-var bearer = "BQAwZWGtfB6ohlsMMZGaIHvn4sFqJkhR_FqlgCPGYPxYoa9Dkg-jJGvZdoqPLBsUoz6tfFGNoQm8awpnktz8zhZQ4e2m6vjxPgbU-k87ApAp7Hi_FFFZLQ3eC_ujnC78TGtoYGD9oVxXC24A63a7BymJU3KfcXncM7kcq3OcZjUUHc1fG3FbbJ3nAtybi7dBFcyzMqSU09XTcJ4HECJwzc7FKqGgmOxs3MWeBC8vulhSHU3pSu0yzomSabYb1u33RQqWGn0tgOaqe1uaYE0wIcINooSi-32b7uo-tw";
+var bearer = "BQAVGZZcQZMloGUDw68r5pVn-NH9CsDEz58pn5Q4yI-ZNVYVhKu2RcUfSGQczWdEDeVNDstZBtGFlphEwGSiyuPI5sSLHBFVlz0LIyPniKLLn4--1DM9L_Orc8NggbiIISy1j__mbF0Ghoswly0iFmr0NHTLZVQJd9NwKUo1_e7bs8uS4DO02rxRY4I8azf0zdKGigD_tBdop79VWp_US3dMv_RqXD544YwCRhxp7TJkxZPpnqWWAd1e4EPtS4S_sO1NaZeCZnsjDXbcNS9_4-ibpmU2BZPhZyo7NQ";
 
 /*
 * Temporary backdoor method of updating OAuth key
