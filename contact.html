@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+  <style>
+    div#contact{
+    padding-top: 80px;
+    }
+
+    div.contact-entry{
+    font-size: large;
+    }
+
+    div.contact-entry > a{
+    display: inline-block;
+    }    
+  </style>
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <!-- drop down menu -->
+  <div id="menu-container" class="trans">
+    <span id="close" class="material-icons">close</span>
+    <!-- <a href="#"></a> -->
+  </div>
+  <div id="menu-cover" class="trans"></div>
+
+  <!-- main content of the website -->
+  <div id="main">
+    <div id="heading-wrapper">
+      <span id="menu-btn" class="material-icons">menu</span>
+      <span id="name"></span>
+    </div>
+    <div id="contact">
+      <h2>Contact</h2>
+      <div class="contact-entry">
+	Email:
+	<a href="mailto:huangyongzheng@wustl.edu">huangyongzheng@wustl.edu</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+</body>
+</html>

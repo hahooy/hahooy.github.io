@@ -1,0 +1,385 @@
+/* ----------------- font, margin and padding applied to all pages ----------------- */
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear-fix {
+    overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.contact-entry{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 6%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #f5a623;
+    line-height: 48px;
+    display: inline;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #000;
+    padding: 10px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
+}
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    color: #000;
+}
+
+h2,
+h3,
+h5 {
+    padding:10px 5%;
+}
+
+
+.date-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #000;
+    line-height: 16px;
+    float: left;
+}
+
+.location-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: right;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-size: 16px;
+    color: #3D9CCC;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+#skills-h3 {
+    color: #1199c3;
+    display: none;
+}
+
+.blue-text {
+    color: #3D9CCC;
+}
+
+.white-text {
+    font-weight: bold;
+    color: #000000;
+}
+
+.brown { 
+    background-color: #F3EFE0; /* dark background color */
+    padding-bottom: 10px;
+    clear:both;
+}
+
+.dark-gray {
+    background-color: #4a4a4a;
+}
+
+span {
+    padding: 5px; 
+}
+
+#lets-connect {
+    text-align: center;
+}
+
+.center-content {
+    padding: 2.5% 6%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* ----------------- navigation bar ----------------- */
+
+
+#heading-wrapper{
+    background-color: rgba(255, 255, 255, 1);
+    background-image: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5; /* make sure it is not cover by images of projects and top overlay */
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+#my-name{
+    font-size: 24px;
+    color: #000;
+}
+
+#my-name:hover{
+    color: #3D9CCC; 
+}
+
+#menu-btn:hover{
+    cursor: pointer;             
+    color: #3D9CCC;
+    box-sizing: border-box;
+    border: 2px solid #3D9CCC;
+}
+
+ul.nav.navbar-nav.navbar-right > li:hover{
+    background-color: #3D9CCC;
+}
+
+ul.nav.navbar-nav.navbar-right > li:hover > a{
+    color: #FFFFFF;
+}
+
+
+/* ----------------- style top page ----------------- */
+
+
+.jumbotron {
+    height: 100vh;
+    background: no-repeat center right fixed url("../images/background2.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.jumbotron .overlay {
+    background-color: #3D9CCC;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    z-index: 2;
+}
+
+@media (max-width: 767px)
+.jumbotron .container {
+    top: 20%;
+    padding-top: 0px;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+}
+
+.jumbotron .container h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+
+
+/* ----------------- style header content ----------------- */
+
+
+.biopic {
+    margin:auto;
+}
+
+#about > p{
+    font-size: medium;
+}
+
+#about > h3{
+    padding-top: 30px;
+}
+
+
+/* ----------------- style project content ----------------- */
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+    .grid-sizer,
+    .grid-item {
+        width: 100%;
+    }
+}
+
+div.project-entry{
+    margin-bottom: 5%;
+}
+
+div.project-entry > * {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.project-entry p {
+    text-align: justify;
+}
+
+img.projectImg{
+    width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    /* make the zoom in effect more smooth */
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+div.project-entry > a{
+    /* hide the image overflow when hover */
+    overflow: hidden;
+}
+
+div.project-entry > a:hover{
+    box-shadow: 3px 3px 8px 1px;
+}
+
+img.projectImg:hover{
+    /* zoom in the image when hover */
+    transform: scale(1.3);
+}
+
+.project-entry h4, .project-entry p {
+    text-align: left;
+}
+
+.project-entry h4 {
+    border-bottom: 1px solid #000000;
+}
+
+
+/* ----------------- style map ----------------- */
+
+
+#map {
+    display: block;
+    height: 300px;
+    margin: 0;
+}
+
+#map-div {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/* Ensure the map is contained within its parent div. */
+#map-div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ----------------- style experience ----------------- */
+
+
+.section {
+    margin-bottom: 5%;
+}
+
+
+/* ----------------- style everything else ----------------- */
+
+
+/* make the element(e.g. menu, header) disappear */
+.trans {
+    display: none;
+}
+
+/* draw a line */
+hr {
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.block {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    background-color: #3D9CCC;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 20px 120px;
+}
+
+.inline-link {
+    display: inline;
+}
+
+/* Truncate long string or url to prevent overflow. */
+.ellipses {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 998px) {
+    .container {
+        padding: 20px 20px;
+        min-width: 280px;
+    }
+}
