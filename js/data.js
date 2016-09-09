@@ -64,8 +64,8 @@ var resumeData = {
                 {
                     name: "WashU",
                     city: "St. Louis, MO",
-                    degree: "M.Eng.",
-                    majors: "Computer Science and Engineering",
+                    degree: "M.S.",
+                    majors: "Computer Science",
                     date: "Expected May 2017",
                     url: "http://wustl.edu",
                     description: ""
