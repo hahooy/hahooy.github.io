@@ -30,13 +30,14 @@ var resumeData = {
 
 
         stack: {
-            "categories": ["language", "web front end", "web framework", "database", "cloud",
+            // NOTE: A new category has to be added to this categories list before added to the skills.
+            "categories": ["language", "web front end", "web framework", "database", "server", "cloud",
                            "mobile", "data analytics", "agile"],
             "proficiencies": ["Proficient", "Familiar", "Basic Understanding"],
             "skills": [
                 {'category': 'language', 'proficiency': 'Proficient', 'technologies': ['Python', 'Java', 'JavaScript', 'Swift']},
                 {'category': 'language', 'proficiency': 'Familiar', 'technologies': ['C']},
-                {'category': 'language', 'proficiency': 'Basic Understanding', 'technologies': ['C++', 'Standard ML', 'Perl']},
+                {'category': 'language', 'proficiency': 'Basic Understanding', 'technologies': ['PHP', 'C++', 'Standard ML', 'Perl']},
                 {'category': 'web front end', 'proficiency': 'Proficient', 'technologies': ['HTML', 'CSS', 'Bootstrap', 'jQuery']},
                 {'category': 'web front end', 'proficiency': 'Familiar', 'technologies': ['jade', 'handlebars']},
                 {'category': 'web front end', 'proficiency': 'Basic Understanding', 'technologies': ['AngularJS', 'Knockout']},
@@ -45,6 +46,9 @@ var resumeData = {
                 {'category': 'database', 'proficiency': 'Proficient', 'technologies': ['SQL', 'PostgreSQL']},
                 {'category': 'database', 'proficiency': 'Familiar', 'technologies': ['DynamoDB']},
                 {'category': 'database', 'proficiency': 'Basic Understanding', 'technologies': ['Firebase', 'MongoDB']},
+                {'category': 'server', 'proficiency': 'Proficient', 'technologies': []},
+                {'category': 'server', 'proficiency': 'Familiar', 'technologies': ['Apache']},
+                {'category': 'server', 'proficiency': 'Basic Understanding', 'technologies': []},
                 {'category': 'cloud', 'proficiency': 'Proficient', 'technologies': ['EC2', 'CloudWatch', 'S3', 'boto']},
                 {'category': 'cloud', 'proficiency': 'Familiar', 'technologies': ['Heroku']},
                 {'category': 'mobile', 'proficiency': 'Proficient', 'technologies': ['iOS development in Swift']},
@@ -103,7 +107,7 @@ var resumeData = {
                     title: "Software Engineering Co-Op",
                     location: "St. Louis, MO",
                     date: "Jan 2016 - May 2016",
-                    description: "I was working on the enterprise identity management team in Monsanto. One major project that I worked on was to develope a node.js based web application for employees' information lookup. I made significant contribution to the project and pushed the app to beta test stage by the time I left. A JavaScript library we developed for this app was published to npm as a open source package. Another project I worked on was to migrate employees to a new identity access management system. I implemented a Java program to automate the migration process (if I could do this over again I would develope it in a scripting language like Python...)."
+                    description: "I was working on the enterprise identity management team in Monsanto. One major project that I worked on was to develope a node.js based web application for employees' information lookup. I made significant contribution to the project and pushed the app to beta test stage by the time I left. A JavaScript library we developed for this app was published to npm as an open source package. Another project I worked on was to migrate employees to a new identity access management system. I implemented a Java program to automate the migration process (if I could do this over again I would develope it in a scripting language like Python...)."
                 },
                 {
                     employer: "Virginia Tech",
