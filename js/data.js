@@ -16,7 +16,7 @@ var resumeData = {
                 codepen: "http://codepen.io/hahooy",
                 linkedin: "https://www.linkedin.com/in/yongzheng-huang-783aa399",
                 location: "St Louis",
-                resume: "https://drive.google.com/file/d/0B1uHglPYIL0yd1lmN1RfTktvalk/view?usp=sharing"
+                resume: "https://drive.google.com/file/d/0B1uHglPYIL0ydHVEanlaTlZER0k/view?usp=sharing"
             },
             bioPic: "images/me-circle.jpg",
             welcomeMessage: "Welcome to my website! " +
