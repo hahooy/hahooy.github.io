@@ -160,7 +160,7 @@ var resumeData = {
                 {
                     title: "Tic-Tac-Toe Online",
                     dates: "2015",
-                    description: "Yet another tic tac toe? This is a somewhat arguably and debatable more advanced tic tac toe because it uses node.js and socket.io to enable real-time game states sharing among players. In other word, this is an online version! If you prefer playing along, you will be facing a MINMAX algorithm based AI. See if you can beat it? :)",
+                    description: "Yet another tic tac toe? This is a somewhat arguably and debatable more advanced tic tac toe because it uses node.js and socket.io to enable real-time game states sharing among players. In other word, this is an online version! If you prefer playing along, you will be facing a Minimax algorithm based AI. See if you can beat it? :)",
                     image: "images/tictactoe.png",
                     url: "http://tic-tac-toe-online.herokuapp.com"
                 },
