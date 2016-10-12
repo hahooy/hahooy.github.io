@@ -32,7 +32,7 @@ var resumeData = {
         stack: {
             // NOTE: A new category has to be added to this categories list before added to the skills.
             "categories": ["language", "web front end", "web framework", "database", "server", "cloud",
-                           "mobile", "data analytics", "agile"],
+                           "mobile", "data analytics", "agile", "version control"],
             "proficiencies": ["Proficient", "Familiar", "Basic Understanding"],
             "skills": [
                 {'category': 'language', 'proficiency': 'Proficient', 'technologies': ['Python', 'Java', 'JavaScript', 'Swift']},
