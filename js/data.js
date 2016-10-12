@@ -54,7 +54,8 @@ var resumeData = {
                 {'category': 'mobile', 'proficiency': 'Proficient', 'technologies': ['iOS development in Swift']},
                 {'category': 'data analytics', 'proficiency': 'Familiar', 'technologies': ['SciPy Stack', 'Hadoop']},
                 {'category': 'agile', 'proficiency': 'Proficient', 'technologies': ['Scrum']},
-                {'category': 'agile', 'proficiency': 'Familiar', 'technologies': ['Kanban']}
+                {'category': 'agile', 'proficiency': 'Familiar', 'technologies': ['Kanban']},
+                {'category': 'version control', 'proficiency': 'Proficient', 'technologies': ['Git', 'Subversion']}
             ]
         },
 
