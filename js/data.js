@@ -37,7 +37,7 @@ var resumeData = {
             "skills": [
                 {'category': 'language', 'proficiency': 'Proficient', 'technologies': ['Python', 'Java', 'JavaScript', 'Swift']},
                 {'category': 'language', 'proficiency': 'Familiar', 'technologies': ['PHP', 'C']},
-                {'category': 'language', 'proficiency': 'Basic Understanding', 'technologies': ['C++', 'Standard ML', 'Perl']},
+                {'category': 'language', 'proficiency': 'Basic Understanding', 'technologies': ['C++', 'Standard ML']},
                 {'category': 'web front end', 'proficiency': 'Proficient', 'technologies': ['HTML', 'CSS', 'Bootstrap', 'jQuery']},
                 {'category': 'web front end', 'proficiency': 'Familiar', 'technologies': ['jade', 'handlebars']},
                 {'category': 'web front end', 'proficiency': 'Basic Understanding', 'technologies': ['AngularJS', 'Knockout']},
