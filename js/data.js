@@ -135,7 +135,7 @@ var resumeData = {
                     dates: "2016",
                     description: "Amber is a web application I developed in Monsanto for employees’ information lookup. I made significant contribution to this site's user authentication, front-end functionalities and back-end data storage.",
                     image: "images/amber.png",
-                    url: "https://radiant-citadel-90691.herokuapp.com"
+                    url: "#"
                 },
                 {
                     title: "passport-ping-oauth2",
