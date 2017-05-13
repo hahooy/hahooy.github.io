@@ -146,7 +146,7 @@ var resumeData = {
                     title: "Flight Delay Prediction Using Gaussian Processes",
                     dates: "2017",
                     description: "Flight delays could cause many problems for travelers, sometimes leading to hours of waiting in the airport, being late to an important meeting or even the cancellation of the entire trip. To solve this problem, I developed a method to predict flight delays using Gaussian Process Classification. I performed feature engineering to generate features relevant to this problem, including traffic, airline and weather related features. I used Bayesian model selection to select a kernel that best explains the data. In addition I applied an ARD kernel to perform automatic feature selection. 0.78 accuracy is achieved for predicting flights from St. Louis Lambert international airport.",
-                    image: "images/flight_delays.jpg",
+                    image: "images/flight_delays.png",
                     url: "https://drive.google.com/open?id=0B1uHglPYIL0ybjR4czItWnlibGM"
                 },
                 {
