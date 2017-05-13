@@ -13,15 +13,17 @@ var resumeData = {
                 email: "huangyongzheng@wustl.edu",
                 mobile: "(540) 239-8537",
                 github: "https://github.com/hahooy",
-                codepen: "http://codepen.io/hahooy",
-                linkedin: "https://www.linkedin.com/in/yongzheng-huang-783aa399",
+                codepen: "https://codepen.io/hahooy",
+                linkedin: "https://www.linkedin.com/in/yongzheng-huang",
                 location: "St Louis",
                 resume: "https://drive.google.com/file/d/0B1uHglPYIL0ydHVEanlaTlZER0k/view?usp=sharing"
             },
             bioPic: "images/me-circle.jpg",
             welcomeMessage: "Welcome to my website! " +
                             "I am a software development enthusiast with experience in " +
-                            "full-stack web and mobile application development. I am currently " +
+                            "full-stack web and mobile application development. I am also a machine " + 
+                            "learning practitioner familiar with Bayesian methods and classical machine " +
+                            "learning methods. I am currently " +
                             "living in St. Louis and pursuing my Computer Science Masters degree " +
                             "at Washington University in St Louis. You might " +
                             "find out what I've been up to on this website (only if I " +
@@ -31,20 +33,21 @@ var resumeData = {
 
         stack: {
             // NOTE: A new category has to be added to this categories list before added to the skills.
-            "categories": ["language", "web front end", "web framework", "database", "server", "cloud",
-                           "mobile", "data analytics", "agile", "version control"],
+            "categories": ["language", "mobile", "machine learning", "web front end", 
+                            "web framework", "database", "server", "cloud",
+                            "agile", "version control"],
             "proficiencies": ["Proficient", "Familiar", "Basic Understanding"],
             "skills": [
                 {'category': 'language', 'proficiency': 'Proficient', 'technologies': ['Python', 'Java', 'JavaScript', 'Swift']},
-                {'category': 'language', 'proficiency': 'Familiar', 'technologies': ['PHP', 'C']},
-                {'category': 'language', 'proficiency': 'Basic Understanding', 'technologies': ['C++', 'Standard ML']},
+                {'category': 'language', 'proficiency': 'Familiar', 'technologies': ['Matlab', 'C']},
+                {'category': 'language', 'proficiency': 'Basic Understanding', 'technologies': ['PHP', 'C++', 'Standard ML']},
                 {'category': 'web front end', 'proficiency': 'Proficient', 'technologies': ['HTML', 'CSS', 'Bootstrap', 'jQuery']},
                 {'category': 'web front end', 'proficiency': 'Familiar', 'technologies': ['jade', 'handlebars']},
                 {'category': 'web front end', 'proficiency': 'Basic Understanding', 'technologies': ['AngularJS', 'Knockout']},
                 {'category': 'web framework', 'proficiency': 'Proficient', 'technologies': ['Django']},
                 {'category': 'web framework', 'proficiency': 'Familiar', 'technologies': ['Node.js']},
                 {'category': 'database', 'proficiency': 'Proficient', 'technologies': ['SQL', 'PostgreSQL']},
-                {'category': 'database', 'proficiency': 'Familiar', 'technologies': ['DynamoDB', 'MySQL']},
+                {'category': 'database', 'proficiency': 'Familiar', 'technologies': ['DynamoDB', 'MySQL', 'Hadoop']},
                 {'category': 'database', 'proficiency': 'Basic Understanding', 'technologies': ['Firebase', 'MongoDB']},
                 {'category': 'server', 'proficiency': 'Proficient', 'technologies': []},
                 {'category': 'server', 'proficiency': 'Familiar', 'technologies': ['Apache']},
@@ -52,7 +55,8 @@ var resumeData = {
                 {'category': 'cloud', 'proficiency': 'Proficient', 'technologies': ['EC2', 'CloudWatch', 'S3', 'boto']},
                 {'category': 'cloud', 'proficiency': 'Familiar', 'technologies': ['Heroku']},
                 {'category': 'mobile', 'proficiency': 'Proficient', 'technologies': ['iOS development in Swift']},
-                {'category': 'data analytics', 'proficiency': 'Familiar', 'technologies': ['SciPy Stack', 'Hadoop']},
+                {'category': 'machine learning', 'proficiency': 'Proficient', 'technologies': ['Gaussian Processes', 'SVM', 'Linear Regression', 'Logistic Regression', 'PCA']},
+                {'category': 'machine learning', 'proficiency': 'Familiar', 'technologies': ['KNN', 'k-means', 'Autoencoder', 'ICA', 'Decision Tree', 'Neural Network']},
                 {'category': 'agile', 'proficiency': 'Proficient', 'technologies': ['Scrum']},
                 {'category': 'agile', 'proficiency': 'Familiar', 'technologies': ['Kanban']},
                 {'category': 'version control', 'proficiency': 'Proficient', 'technologies': ['Git', 'Subversion']}
@@ -68,7 +72,7 @@ var resumeData = {
                     degree: "M.S.",
                     majors: "Computer Science",
                     date: "Expected May 2017",
-                    url: "http://wustl.edu",
+                    url: "https://wustl.edu",
                     description: ""
                 },
                 {
@@ -86,7 +90,7 @@ var resumeData = {
                     degree: "B.S.",
                     majors: "Applied Chemistry",
                     date: "June 2012",
-                    url: "http://international.cqu.edu.cn",
+                    url: "https://international.cqu.edu.cn",
                     description: ""
                 }
             ],
@@ -96,7 +100,7 @@ var resumeData = {
             [
                 {
                     employer: "Service Management Group",
-                    website: "http://www.smg.com/",
+                    website: "https://www.smg.com/",
                     title: "Software Engineering Intern",
                     location: "Boston, MA",
                     date: "Jun 2016 - Sep 2016",
@@ -104,7 +108,7 @@ var resumeData = {
                 },
                 {
                     employer: "Monsanto",
-                    website: "http://www.monsanto.com/",
+                    website: "https://www.monsanto.com/",
                     title: "IT Co-Op",
                     location: "St. Louis, MO",
                     date: "Jan 2016 - May 2016",
@@ -124,11 +128,53 @@ var resumeData = {
         projects:
             [
                 {
+                    title: "Connect STL",
+                    dates: "2017",
+                    description: "Connect STL is an iOS app that displays the real-time bus location and scheduled departure time for all Metro buses in St. Louis. It also provides real-time departure prediction for the Green Line bus. Connect STL has an interactive and intuitive user interface. You can see the location of the bus stops, the routes and the location of the buses on an interactive map. The locations of the buses are updated in real time on the map. You can touch on the bus stops to get scheduled departure time and a real-time estimation about how long it takes for the bus to come.",
+                    image: "images/connect_stl.png",
+                    url: "https://drive.google.com/open?id=0B1uHglPYIL0yWlBYZERXMEJNZkE"
+                },
+                {
+                    title: "Poly.io",
+                    dates: "2017",
+                    description: "Poly.io is an action-packed multiplayer iOS game inspired by io games. The purpose is to hit your opponent using your bubbles. The rule is simple: the bubble can only hit a player with a different color. You need to switch the color of your bubble quickly to hit your opponent. To avoid being hit, either switch your color or move away from your opponents' bubbles.",
+                    image: "images/poly_io.png",
+                    url: "https://drive.google.com/open?id=0B1uHglPYIL0yM2hyYXpka0FSNkE"
+                },
+                {
+                    title: "Flight Delay Prediction Using Gaussian Processes",
+                    dates: "2017",
+                    description: "Flight delays could cause many problems for travelers, sometimes leading to hours of waiting in the airport, being late to an important meeting or even the cancellation of the entire trip. To solve this problem, I developed a method to predict flight delays using Gaussian Process Classification. I performed feature engineering to generate features relevant to this problem, including traffic, airline and weather related features. I used Bayesian model selection to select a kernel that best explains the data. In addition I applied an ARD kernel to perform automatic feature selection. 0.78 accuracy is achieved for predicting flights from St. Louis Lambert international airport.",
+                    image: "images/flight_delays.jpg",
+                    url: "https://drive.google.com/open?id=0B1uHglPYIL0ybjR4czItWnlibGM"
+                },
+                {
+                    title: "Interactive Twitter Visualization",
+                    dates: "2017",
+                    description: "Tweets provide a lot of information about what people are thinking and communicating but they are very challenging to visualize because of the volume of the data. To better visualize and utilize the data, we use a combination of different visualizations and make them interactive for users. With our visualization users can immediately get an overview about what people are tweeting. Because of the interactive nature of this visualization, users can also perform further investigations to dig out more insights from data if they have an objective in mind. Using this visualization, we were able to discover many interesting trends in the data.",
+                    image: "images/twitter_vis.png",
+                    url: "https://hahooy.github.io/twitter-vis/website/"
+                },
+                {
+                    title: "Feature Selection for Alzheimer's disease",
+                    dates: "2016",
+                    description: "I applied PCA, ICA and Autoencoder to select genes that are most significant for the Alzheimer's disease.",
+                    image: "images/alzheimer.png",
+                    url: "https://drive.google.com/open?id=0B1uHglPYIL0yU0lsNjlsS1VEQkU"
+                },
+                {
+                    title: "EyeCare",
+                    dates: "2016",
+                    description: "EyeCare is an iOS app aiming to help people who are suffering from corneal ulcers and epithelial defects. With the aid of computer vision, geometric computing, machine learning and mobile technology, EyeCare provides a reliable solution to automatically detect and quantify the symptoms. By taking a picture of the patient's eye using an iPhone with a 15 - 25 magnifying lens, EyeCare is able to detect the ulcer region on the patient's cornea and compute the defected area precisely. The app also provides an intuitive way for the patient to keep track of the progress of the symptoms.",
+                    image: "images/eye_care.png",
+                    url: "https://devpost.com/software/eyecare"
+                },
+                {
                     title: "Angler Companian",
                     dates: "2016",
                     description: "Angler Companion is a photo and location sharing iOS social app for anglers. Featuring channels, real-time photo and location sharing, length measurement on photo and more. Recording your fishing spots and sharing your exciting moments have never been this easy!",
                     image: "images/locatorcam.jpg",
-                    url: "http://hahooy.github.io/LocatorCam/"
+                    url: "https://hahooy.github.io/LocatorCam/"
                 },
                 {
                     title: "Amber",
@@ -149,7 +195,7 @@ var resumeData = {
                     dates: "2015",
                     description: "<strong>Awarded AT&T Prize for Best Mobile App at WUHack 2015</strong><br/>A social jukebox web app allowing users to share music to a group speaker system.",
                     image: "images/blackSquareLogo.png",
-                    url: "http://hahooy.github.io/wuhack2015/"
+                    url: "https://hahooy.github.io/wuhack2015/"
                 },
                 {
                     title: "Movie Recommendation System",
@@ -161,30 +207,9 @@ var resumeData = {
                 {
                     title: "Tic-Tac-Toe Online",
                     dates: "2015",
-                    description: "Yet another tic tac toe? This is a somewhat arguably and debatable more advanced tic tac toe because it uses node.js and socket.io to enable real-time game states sharing among players. In other word, this is an online version! If you prefer playing along, you will be facing a Minimax algorithm based AI. See if you can beat it? :)",
+                    description: "Yet another tic tac toe? This is a somewhat arguably and debatable more advanced tic tac toe because it uses node.js and socket.io to enable real-time game states sharing among players. In other word, this is an online version! If you prefer playing along, you will be facing a Minimax AI. See if you can beat it? :)",
                     image: "images/tictactoe.png",
-                    url: "http://tic-tac-toe-online.herokuapp.com"
-                },
-                {
-                    title: "Promodoro Clock",
-                    dates: "2015",
-                    description: "",
-                    image: "images/timer.png",
-                    url: "http://codepen.io/hahooy/full/waQXav/"
-                },
-                {
-                    title: "Local Weather App",
-                    dates: "2015",
-                    description: "",
-                    image: "images/localWeather.png",
-                    url: "http://codepen.io/hahooy/full/vOVoyj/"
-                },
-                {
-                    title: "Catch Goblins",
-                    dates: "2015",
-                    description: "Ever want to catch some goblins? Try out this HTML5 game!",
-                    image: "images/catchGoblins.png",
-                    url: "http://hahooy.github.io/simple_canvas_game/"
+                    url: "https://tic-tac-toe-online.herokuapp.com"
                 }
             ]
 };

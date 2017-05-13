@@ -102,7 +102,7 @@
           <div class="grid-item text-center project-entry">
             <h4>{{title}}</h4>
             <p>{{{description}}}</p>
-            <a class="image-container" href="{{url}}"><img class="projectImg" src="{{image}}"></a>
+            <a class="image-container" href="{{url}}" target="_blank"><img class="projectImg" src="{{image}}"></a>
           </div>
           {{/projects}}
         </div>
@@ -131,7 +131,7 @@
               <i class="fa fa-map" aria-hidden="true"></i>
               {{city}}
               <span>  |  </span>
-              <a class="inline-link" href="{{url}}">
+              <a class="inline-link" href="{{url}}" target="_blank">
                 <i class="fa fa-external-link" aria-hidden="true"> {{url}} </i>
               </a>
             </p>
@@ -163,7 +163,7 @@
               <i class="fa fa-map" aria-hidden="true"></i>
               {{location}}
               <span>  |  </span>
-              <a class="inline-link" href="{{website}}">
+              <a class="inline-link" href="{{website}}" target="_blank">
                 <i class="fa fa-external-link" aria-hidden="true"> {{website}} </i>
               </a>
             </p>
@@ -194,13 +194,13 @@
         {{#bio.contacts}}
         <div class="row">
           <div class="col-md-6">
-            <a href="mailto:{{email}}" class="ellipses">
+            <a href="mailto:{{email}}" target="_blank" class="ellipses">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               {{email}}
             </a>
           </div>
           <div class="col-md-6">
-            <a href="{{github}}" class="ellipses">
+            <a href="{{github}}" target="_blank" class="ellipses">
               <i class="fa fa-github-square" aria-hidden="true"></i>
               {{github}}
             </a>
@@ -208,13 +208,13 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <a href="{{linkedin}}" class="ellipses">
+            <a href="{{linkedin}}" target="_blank" class="ellipses">
               <i class="fa fa-linkedin-square" aria-hidden="true"></i>
               {{linkedin}}
             </a>
           </div>
           <div class="col-md-6">
-            <a href="{{resume}}" class="ellipses">
+            <a href="{{resume}}" target="_blank" class="ellipses">
               <i class="fa fa-file-text" aria-hidden="true"></i>
               resume
             </a>
