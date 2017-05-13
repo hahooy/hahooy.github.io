@@ -138,7 +138,7 @@ var resumeData = {
                 {
                     title: "Poly.io",
                     dates: "2017",
-                    description: "Poly.io is an action-packed multiplayer iOS game inspired by io games. The purpose is to hit your opponent using your bubbles. The rule is simple: the bubble can only hit a player with a different color. You need to switch the color of your bubble quickly to hit your opponent. To avoid being hit, either switch your color or move away from your opponents' bubbles.",
+                    description: "Poly.io is an action-packed multiplayer iOS game inspired by io games. It is currently under development.",
                     image: "images/poly_io.png",
                     url: "https://drive.google.com/open?id=0B1uHglPYIL0yM2hyYXpka0FSNkE"
                 },
