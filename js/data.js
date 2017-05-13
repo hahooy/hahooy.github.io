@@ -143,14 +143,14 @@ var resumeData = {
                     url: "#"
                 },
                 {
-                    title: "Flight Delay Prediction Using Gaussian Processes",
+                    title: "Gaussian Processes for Flight Delay Prediction",
                     dates: "2017",
                     description: "Flight delays could cause many problems for travelers, sometimes leading to hours of waiting in the airport, being late to an important meeting or even the cancellation of the entire trip. To solve this problem, I developed a method to predict flight delays using Gaussian Process Classification. I performed feature engineering to generate features relevant to this problem, including traffic, airline and weather related features. I used Bayesian model selection to select a kernel that best explains the data. In addition I applied an ARD kernel to perform automatic feature selection. 0.78 accuracy is achieved for predicting flights from St. Louis Lambert international airport.",
                     image: "images/flight_delays.png",
                     url: "https://drive.google.com/open?id=0B1uHglPYIL0ybjR4czItWnlibGM"
                 },
                 {
-                    title: "Interactive Twitter Visualization",
+                    title: "Twitter Visualization",
                     dates: "2017",
                     description: "Tweets provide a lot of information about what people are thinking and communicating but they are very challenging to visualize because of the volume of the data. To better visualize and utilize the data, we use a combination of different visualizations and make them interactive for users. With our visualization users can immediately get an overview about what people are tweeting. Because of the interactive nature of this visualization, users can also perform further investigations to dig out more insights from data if they have an objective in mind. Using this visualization, we were able to discover many interesting trends in the data.",
                     image: "images/twitter_vis.png",
