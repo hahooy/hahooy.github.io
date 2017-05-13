@@ -140,7 +140,7 @@ var resumeData = {
                     dates: "2017",
                     description: "Poly.io is an action-packed multiplayer iOS game inspired by io games. It is currently under development.",
                     image: "images/poly_io.png",
-                    url: "https://drive.google.com/open?id=0B1uHglPYIL0yM2hyYXpka0FSNkE"
+                    url: "#"
                 },
                 {
                     title: "Flight Delay Prediction Using Gaussian Processes",
