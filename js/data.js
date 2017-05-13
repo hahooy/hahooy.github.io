@@ -21,13 +21,14 @@ var resumeData = {
             bioPic: "images/me-circle.jpg",
             welcomeMessage: "Welcome to my website! " +
                             "I am a software development enthusiast with experience in " +
-                            "full-stack web and mobile application development. I am also a machine " + 
+                            "full-stack web and iOS application development. I am also a machine " + 
                             "learning practitioner familiar with Bayesian methods and classical machine " +
                             "learning methods. I am currently " +
                             "living in St. Louis and pursuing my Computer Science Masters degree " +
                             "at Washington University in St Louis. You might " +
                             "find out what I've been up to on this website (only if I " +
-                            "am diligent enough updating it, which usually is not the case :-).) "
+                            "am diligent enough updating it, which usually is not the case :-).) ",
+            lastUpdate: "05-12-2017"
         },
 
 
